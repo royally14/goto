@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Official Access Page</title>
+<meta name="description" content="Safe landing page to access our official content.">
+
+<meta property="og:title" content="Official Access Page">
+<meta property="og:description" content="Click to continue to the official website.">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome</h1>
+    <p>
+      This page helps you safely access our official content.
+      Please select the page you want to continue to.
+    </p>
+
+    <a class="btn" href="go/movie1.html">Go to Page 1</a><br>
+    <a class="btn" href="go/movie2.html">Go to Page 2</a><br>
+    <a class="btn" href="go/movie3.html">Go to Page 3</a>
+
+    <div class="footer">
+      <a href="about.html">About</a> |
+      <a href="privacy.html">Privacy</a> |
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+</body>
+</html>
